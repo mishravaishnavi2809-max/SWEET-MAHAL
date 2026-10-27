@@ -1,0 +1,109 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff8ef;
+}
+
+header {
+  background-color: #8b1538;
+  color: white;
+  text-align: center;
+  padding: 25px 10px;
+}
+
+header h1 {
+  margin: 5px;
+  font-size: 32px;
+}
+
+.heading {
+  text-align: center;
+  color: #8b1538;
+  margin: 30px 10px;
+}
+
+.sweet-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.sweet-card {
+  background-color: white;
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #f0d4c4;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px #ddd;
+}
+
+.sweet-emoji {
+  font-size: 55px;
+}
+
+.sweet-card h3 {
+  color: #8b1538;
+}
+
+.sweet-card input {
+  width: 65px;
+  padding: 8px;
+  margin: 10px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 12px;
+  background-color: #8b1538;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: #bd3157;
+}
+
+.cart {
+  background-color: white;
+  max-width: 600px;
+  margin: 25px auto;
+  padding: 25px;
+  border-radius: 12px;
+  border: 2px solid #8b1538;
+}
+
+.cart h2,
+.cart h3 {
+  color: #8b1538;
+}
+
+footer {
+  background-color: #8b1538;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+  .sweet-card {
+    width: 100%;
+  }
+
+  .cart {
+    margin: 20px;
+  }
+}
